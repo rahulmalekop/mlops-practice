@@ -1,0 +1,19 @@
+#
+# Author: Lasse Collin
+#
+# This file has been put into the public domain.
+# You can do whatever you want with this file.
+#
+
+prefix=/Users/rahulmalekop/Desktop/whatsup/venv
+exec_prefix=/Users/rahulmalekop/Desktop/whatsup/venv
+libdir=/Users/rahulmalekop/Desktop/whatsup/venv/lib
+includedir=/Users/rahulmalekop/Desktop/whatsup/venv/include
+
+Name: liblzma
+Description: General purpose data compression library
+URL: https://tukaani.org/xz/
+Version: 5.4.2
+Cflags: -I${includedir}
+Libs: -L${libdir} -llzma
+Libs.private: -pthread -lpthread

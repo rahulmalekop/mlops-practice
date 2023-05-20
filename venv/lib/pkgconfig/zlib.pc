@@ -1,0 +1,13 @@
+prefix=/Users/rahulmalekop/Desktop/whatsup/venv
+exec_prefix=/Users/rahulmalekop/Desktop/whatsup/venv
+libdir=/Users/rahulmalekop/Desktop/whatsup/venv/lib
+sharedlibdir=/Users/rahulmalekop/Desktop/whatsup/venv/lib
+includedir=/Users/rahulmalekop/Desktop/whatsup/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
